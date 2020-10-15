@@ -38,11 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-        'news.apps.NewsConfig',
-    #.............
-    'news',
+    'news.apps.NewsConfig',
     'bootstrap3',
-    #..............
 
 ]
 
@@ -84,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tribune',
-        'USER': '<Your Database Username >',
-    'PASSWORD':'<Your Database Password>',
+        'USER': 'mainas',
+    'PASSWORD':'charity',
     }
 }
 
